@@ -1,3 +1,26 @@
+# [10.18.0](https://github.com/collab-ui/collab-ui-core/compare/v10.17.3...v10.18.0) (2018-07-24)
+
+
+### Bug Fixes
+
+* **avatar:** remove border and adjust box-shadow for avatar ([7510565](https://github.com/collab-ui/collab-ui-core/commit/7510565))
+* **coachmark:** add flex fix for IE 11 compatibility ([6a668bf](https://github.com/collab-ui/collab-ui-core/commit/6a668bf))
+* **list:** fix list to remove width and adjust flex-basis of list-item--sections ([5eb5716](https://github.com/collab-ui/collab-ui-core/commit/5eb5716))
+
+
+### Features
+
+* **avatar:** add dark theme style for avatar ([0b098b7](https://github.com/collab-ui/collab-ui-core/commit/0b098b7))
+
+## [10.17.3](https://github.com/collab-ui/collab-ui-core/compare/v10.17.2...v10.17.3) (2018-07-23)
+
+
+### Bug Fixes
+
+* **editable-textfield:** make styles consistent when switched between button/input ([2d07f90](https://github.com/collab-ui/collab-ui-core/commit/2d07f90))
+* **event-overlay:** update border and arrow positioning ([8ee1e68](https://github.com/collab-ui/collab-ui-core/commit/8ee1e68))
+* **tooltip:** update border and arrow positioning ([64630c2](https://github.com/collab-ui/collab-ui-core/commit/64630c2))
+
 ## [10.17.2](https://github.com/collab-ui/collab-ui-core/compare/v10.17.1...v10.17.2) (2018-07-23)
 
 
