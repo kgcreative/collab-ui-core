@@ -65,6 +65,39 @@
         }
       }
 
+      &--pill {
+
+        :first-child {
+          @include border-left-radius($button-group__border-radius-pill);
+        }
+
+        :last-child {
+          @include border-right-radius($button-group__border-radius-pill);
+        }
+
+        :first-child:last-child{
+          border-radius: $button-group__border-radius-pill;
+        }
+
+        > .#{$button__class} {
+          padding: $button-group-icon__padding;
+          width: auto;
+        @include button-color(
+          $box-shadow: 0 2px 4px 0 $black-4,
+          $border: 1px solid $black-12,
+          $color: $button-group__color,
+          $color-hover: $button-group__color,
+          $color-disabled: $button-group-disabled__color,
+          $bg: $button-group__background,
+          $bg-disabled: $button-group__background,
+          $bg-hover:$blue-pastel
+        );
+        .cui-icon {
+          fill: currentColor;
+        }
+      }
+    }
+
       &--dark {
         > .#{$button__class} {
 

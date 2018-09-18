@@ -1,5 +1,6 @@
 @import "../settings/core";
-@import "../settings/topbar";
+@import "../settings/top-bar";
+@import 'settings/topbar';
 
 @import "../tools/mixins/vendor-prefixes";
 
@@ -44,7 +45,7 @@
     }
   }
 
-  & .btn, button {
+  & .cui-button, button {
     color: $gray-4;
   }
 
@@ -57,7 +58,7 @@
       top: 100%;
     }
 
-    .btn {
+    .cui-button {
       &:focus {
         box-shadow: none;
       }

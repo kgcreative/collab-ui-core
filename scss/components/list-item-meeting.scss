@@ -27,7 +27,7 @@
         inset 0 1px 0 0 rgba(0, 0, 0, 0.04);
 
       > [class$='__left'] {
-        width: 72px;
+        margin-right: 32px;
         font-size: rem-calc(14);
         line-height: rem-calc(22);
         color: $gray-2;
@@ -68,6 +68,14 @@
       [class$='overlay__children'] {
         width: 340px;
         padding: rem-calc(16);
+      }
+
+      &--chip {
+        > [class$='__left'] {
+          > [class$='__progress-line'] {
+            background-color: $orange;
+          }
+        }
       }
 
       &--completed {

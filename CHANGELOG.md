@@ -1,3 +1,131 @@
+## [10.25.1](https://github.com/collab-ui/collab-ui-core/compare/v10.25.0...v10.25.1) (2018-09-14)
+
+
+### Bug Fixes
+
+* **typography:** update typography to latest spec, add cui prefix ([076c768](https://github.com/collab-ui/collab-ui-core/commit/076c768))
+
+# [10.25.0](https://github.com/collab-ui/collab-ui-core/compare/v10.24.0...v10.25.0) (2018-09-12)
+
+
+### Bug Fixes
+
+* **list-item:** allow read only class to have click events ([16f3a9d](https://github.com/collab-ui/collab-ui-core/commit/16f3a9d))
+* **menu-item:** change height to min-height ([63aebad](https://github.com/collab-ui/collab-ui-core/commit/63aebad))
+* **select:** add max-height to combo-box and select ([70b3937](https://github.com/collab-ui/collab-ui-core/commit/70b3937))
+* **select:** add max-height to combo-box and select ([46bf33c](https://github.com/collab-ui/collab-ui-core/commit/46bf33c))
+
+
+### Features
+
+* **combo-box:** add styles for list-item-header in combo-box ([ce7b3f6](https://github.com/collab-ui/collab-ui-core/commit/ce7b3f6))
+* **contrast:** adds new contrasting colors ([cd3f86b](https://github.com/collab-ui/collab-ui-core/commit/cd3f86b))
+* **utilities:** add blur style for decrypting state ([55c6ee0](https://github.com/collab-ui/collab-ui-core/commit/55c6ee0))
+
+# [10.24.0](https://github.com/collab-ui/collab-ui-core/compare/v10.23.2...v10.24.0) (2018-08-31)
+
+
+### Bug Fixes
+
+* **buttonGroup:** change box-shadow and border to variables ([6e64c04](https://github.com/collab-ui/collab-ui-core/commit/6e64c04))
+
+
+### Features
+
+* **buttonGroup:** add first-child last-child to pill class ([4ef1264](https://github.com/collab-ui/collab-ui-core/commit/4ef1264))
+* **buttonGroup:** add pill class for button group ([f27ed9e](https://github.com/collab-ui/collab-ui-core/commit/f27ed9e))
+* **buttonGroup:** add radius-pill variable ([43e3279](https://github.com/collab-ui/collab-ui-core/commit/43e3279))
+* **buttonGroup:** change to -pill modifier ([a6a60ad](https://github.com/collab-ui/collab-ui-core/commit/a6a60ad))
+* **chip:** add chip component ([9991cc3](https://github.com/collab-ui/collab-ui-core/commit/9991cc3))
+
+## [10.23.2](https://github.com/collab-ui/collab-ui-core/compare/v10.23.1...v10.23.2) (2018-08-31)
+
+
+### Bug Fixes
+
+* **collab-ui-ng:** updates for AngularJS library ([ddc5d89](https://github.com/collab-ui/collab-ui-core/commit/ddc5d89))
+
+## [10.23.1](https://github.com/collab-ui/collab-ui-core/compare/v10.23.0...v10.23.1) (2018-08-27)
+
+
+### Bug Fixes
+
+* **list:** list set to 100% width of container ([0274a7b](https://github.com/collab-ui/collab-ui-core/commit/0274a7b))
+
+# [10.23.0](https://github.com/collab-ui/collab-ui-core/compare/v10.22.0...v10.23.0) (2018-08-27)
+
+
+### Bug Fixes
+
+* **listItemMeeting:** add date class to list item meeting ([f37ad05](https://github.com/collab-ui/collab-ui-core/commit/f37ad05))
+* **listItemMeeting:** remove --date class, not used ([fb18277](https://github.com/collab-ui/collab-ui-core/commit/fb18277))
+* **listItemMeeting:** remove comment of left-date ([ac957f3](https://github.com/collab-ui/collab-ui-core/commit/ac957f3))
+
+
+### Features
+
+* **listItemMeeting:** add chip modifier ([8000f98](https://github.com/collab-ui/collab-ui-core/commit/8000f98))
+* **listSeparator:** add line color, text color, padding, margin ([361d605](https://github.com/collab-ui/collab-ui-core/commit/361d605))
+
+# [10.22.0](https://github.com/collab-ui/collab-ui-core/compare/v10.21.0...v10.22.0) (2018-08-16)
+
+
+### Features
+
+* **avatar:** add notification badge ([89014e8](https://github.com/collab-ui/collab-ui-core/commit/89014e8))
+* **modal:** add message class in modal header ([6aa7bb8](https://github.com/collab-ui/collab-ui-core/commit/6aa7bb8))
+
+# [10.21.0](https://github.com/collab-ui/collab-ui-core/compare/v10.20.0...v10.21.0) (2018-08-10)
+
+
+### Bug Fixes
+
+* **avatar:** apply factor sizing & fix ooo/dnd icon sizes ([808cf33](https://github.com/collab-ui/collab-ui-core/commit/808cf33))
+* **scrollbar:** remove IE body code, add & to selector ([822d136](https://github.com/collab-ui/collab-ui-core/commit/822d136))
+
+
+### Features
+
+* **spinner:** add check class and ratio’s for circle to checkmark size. ([28e8cc7](https://github.com/collab-ui/collab-ui-core/commit/28e8cc7))
+
+# [10.20.0](https://github.com/collab-ui/collab-ui-core/compare/v10.19.1...v10.20.0) (2018-08-09)
+
+
+### Features
+
+* **scrollbar:** add base scrollbar mixin ([9159384](https://github.com/collab-ui/collab-ui-core/commit/9159384))
+
+## [10.19.1](https://github.com/collab-ui/collab-ui-core/compare/v10.19.0...v10.19.1) (2018-08-03)
+
+
+### Bug Fixes
+
+* **menu-overlay:** add separate class name for isHeader ([1781939](https://github.com/collab-ui/collab-ui-core/commit/1781939))
+* **menu-overlay:** remove hardcoded width for menu item ([69c9f18](https://github.com/collab-ui/collab-ui-core/commit/69c9f18))
+
+# [10.19.0](https://github.com/collab-ui/collab-ui-core/compare/v10.18.2...v10.19.0) (2018-08-02)
+
+
+### Features
+
+* **combo-box:** ComboBox Implementation Phase 1/Phase 2 ([58174e0](https://github.com/collab-ui/collab-ui-core/commit/58174e0))
+
+## [10.18.2](https://github.com/collab-ui/collab-ui-core/compare/v10.18.1...v10.18.2) (2018-08-02)
+
+
+### Bug Fixes
+
+* **avatar:** apply after element for avatar presence ring ([a88a8f1](https://github.com/collab-ui/collab-ui-core/commit/a88a8f1))
+* **editable-textfield:** make default styling that of input ([94ab7c7](https://github.com/collab-ui/collab-ui-core/commit/94ab7c7))
+* **tooltip:** add white space wrap to tooltip text ([e910279](https://github.com/collab-ui/collab-ui-core/commit/e910279))
+
+## [10.18.1](https://github.com/collab-ui/collab-ui-core/compare/v10.18.0...v10.18.1) (2018-07-27)
+
+
+### Bug Fixes
+
+* **coachmark:** remove stretch from container ([44c9f9e](https://github.com/collab-ui/collab-ui-core/commit/44c9f9e))
+
 # [10.18.0](https://github.com/collab-ui/collab-ui-core/compare/v10.17.3...v10.18.0) (2018-07-24)
 
 
